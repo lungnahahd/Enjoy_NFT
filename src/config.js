@@ -27,13 +27,17 @@ const layerConfigurations = [
     growEditionSizeTo: 5,
     layersOrder: [   // layers folder의 순서를 확인 -> 해당 그림의 순서대로 조합이 되기에, 순서가 바뀌면 안됨!(포토샵 생각하기)
       // 참고로 layers의 각 그림에 # 뒤에 숫자는 해당 그림이 선택될 확률을 의미(100으로 하면 무조건 그 그림으로 선택)
-      { name: "Background" },
-      { name: "Eyeball" },
-      { name: "Eye color" },
-      { name: "Iris" },
-      { name: "Shine" },
-      { name: "Bottom lid" },
-      { name: "Top lid" },
+      // { name: "Background" },
+      // { name: "Eyeball" },
+      // { name: "Eye color" },
+      // { name: "Iris" },
+      // { name: "Shine" },
+      // { name: "Bottom lid" },
+      // { name: "Top lid" },
+
+      {name: "Background"},
+      {name: "Circle"},
+      {name: "Word"},
     ],
   },
 ];
