@@ -5,9 +5,10 @@ const { NETWORK } = require(`${basePath}/constants/network.js`);
 const network = NETWORK.eth;
 
 // General metadata for Ethereum
+// 아래의 수정 사항은 'npm run update_info' 명령어를 사용해서 일괄 적용 가능
 const namePrefix = "Your Collection"; // NFT 이름을 제공
 const description = "Remember to replace this description"; // NFT 설명을 제공
-const baseUri = "ipfs://NewUriToReplace";
+const baseUri = "ipfs://NewUriToReplace"; // 생성한 Cid를 아래에 붙여서 metadata 자동 수정 가능(Pinata)
 
 const solanaMetadata = {
   symbol: "YC",
