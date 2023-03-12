@@ -311,3 +311,11 @@ Trait type: Top lid
 ```
 
 Hope you create some awesome artworks with this code 👄
+
+
+---
+## Upload Image & Metadata
+- with PINATA
+  1. Upload Image at PINATA
+  2. Change Meatadata with PINATA's CID (Using 'config.js')
+  3. Uplaod Meatadata at PINATA
